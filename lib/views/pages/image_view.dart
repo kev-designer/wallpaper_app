@@ -78,7 +78,7 @@ class _ImageViewState extends State<ImageView> with TickerProviderStateMixin {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 100, right: 100),
                   child: FilledButton(
-                    textName: "Set Wallpaper",
+                    textName: "Save Image",
                     onPressed: () {
                       _save();
                     },
